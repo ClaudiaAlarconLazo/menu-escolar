@@ -1,0 +1,43 @@
+
+
+{{> navbar}}
+
+<h3>Pedidos</h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col-4 border border-dark m-3 p-3">
+      <li>M1: Menú Vegetariano</li>
+      <li>M2: Menú Celiaco</li>
+      <li>M3: Menú Estándar</li>
+    </div>
+
+    <div class="col-4 border border-dark m-3 p-3">
+      <li>M4: Menú Calórico</li>
+      <li>M5: Menú Autóctono</li>
+    </div>
+    <div class="col-2 p-3">
+      <button type="button" onclick="" class="btn btn-primary">Nuevo pedido</button>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-5">
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">FECHA</th>
+      <th scope="col">M1</th>
+      <th scope="col">M2</th>
+      <th scope="col">M3</th>
+      <th scope="col">M4</th>
+      <th scope="col">M5</th>
+      <th scope="col">ACCIÓN</th>
+    </tr>
+  </thead>
+  <tbody id="table">
+  </tbody>
+</table>
+</div>
+
+<script src="./js/landing.js"></script>  

@@ -1,0 +1,18 @@
+### Signup
+POST http://localhost:8080/api/v1/auth/signup HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Roberto",
+  "email": "roberto@gmail.com",
+  "password": "1234"
+}
+
+### Login
+POST http://localhost:8080/api/v1/auth/login HTTP/1.1
+content-type: application/json
+
+{
+  "email": "roberto@gmail.com",
+  "password": "1234"
+}

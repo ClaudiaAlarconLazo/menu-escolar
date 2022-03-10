@@ -1,0 +1,7 @@
+### getAllSchools
+GET http://localhost:8080/api/v1/schools HTTP/1.1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY2hvb2wiOnsiaWQiOjIsIm5hbWUiOiJSb2JlcnRvIiwiZW1haWwiOiJyb2JlcnRvQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJhJDEwJEdwaWZ5VEpzZlBZaTVIL1BXNHdmWU9kNmxqMHpNTC9tWjJFcEZ5dDdzSU44MklZQmdtL3pHIiwiY3JlYXRlZEF0IjoiMjAyMi0wMy0wNVQxOToxNjowNi45NjNaIiwidXBkYXRlZEF0IjoiMjAyMi0wMy0wNVQxOToxNjowNi45NjNaIn0sImlhdCI6MTY0NjUyNjI2NCwiZXhwIjoxNjQ2NTY5NDY0fQ.XF9Iky3HRGhfKTeFWOrxJlxO9ldT3oM_7EiIhDcX16Q 
+
+
+### getById
+GET http://localhost:8080/api/v1/schools/2 HTTP/1.1
