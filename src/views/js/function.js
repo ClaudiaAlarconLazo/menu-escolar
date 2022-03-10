@@ -40,3 +40,8 @@ async function login(event) {
   console.log(response);
 }
 
+async function logout(event) {
+  event.preventDefault();
+  sessionStorage.removeItem("access_token");
+  sessionStorage.removeItem("email");
+}
