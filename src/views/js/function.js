@@ -36,5 +36,7 @@ async function login(event) {
   const response = await axios.post("api/v1/auth/login", data);
 
   sessionStorage.setItem("access_token", response.data.access_token);
+  sessionStorage.setItem("email", response.data.school.email);
   console.log(response);
 }
+

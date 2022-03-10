@@ -16,7 +16,7 @@ content-type: application/json
 
 ### getAllOrders
 GET http://localhost:8080/api/v1/orders HTTP/1.1
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY2hvb2wiOnsic3ViIjoyLCJlbWFpbCI6InJvYmVydG9AZ21haWwuY29tIiwibmFtZSI6IlJvYmVydG8ifSwiaWF0IjoxNjQ2Nzk2NTA4LCJleHAiOjE2NDY4Mzk3MDh9.vypVgrPyYdVO1Chc3NZoMLCogndMWBGUdTQ6yIXriK4
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY2hvb2wiOnsic3ViIjoyLCJlbWFpbCI6InJvYmVydG9AZ21haWwuY29tIiwibmFtZSI6IlJvYmVydG8ifSwiaWF0IjoxNjQ2ODg0NzI0LCJleHAiOjE2NDY5Mjc5MjR9.7J2Tf_qZfoVjcFHdYK1khV_p5c6uK2VZY59OPqvrh0w
 
 ### getOneOrder
 GET http://localhost:8080/api/v1/orders/2 HTTP/1.1
